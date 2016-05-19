@@ -1,0 +1,83 @@
+p {
+    color: #888;
+}
+a {
+    color: #52372c;
+}
+a:hover {
+    color: #775b4f;
+}
+.grey {
+    background-color: #fafafa;
+}
+.dark-grey {
+    background-color: #222;
+    color: #fff;
+}
+.dark-grey a {
+    color: #fff;
+}
+.dark-grey .section-header h2::after {
+    background-color: #fff;
+}
+.main_head {
+    background-color:#3F3F3F;
+}
+.toggle-menu {
+    background-color: #33160B;
+}
+.top-menu ul li a:hover {
+    color: #33160B;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #33160B;
+}
+.top-text {
+    background-color: rgba(255,255,255,0.8);
+    border: 5px solid #52372c;
+}
+.top-text h1 {
+    color: #52372c;
+}
+.top-text p {
+    color: rgba(43, 20, 12, 0.8);
+}
+.section-header h2::after {
+    background-color: #33160B;
+}
+section h3 {
+    color: #888;
+}
+.personal_header {
+    color: #555;
+}
+.about p:nth-child(even) {
+    color: #775b4f;
+}
+.about ul {
+    color: #888;
+}
+
+/*Features*/
+.features .section-content .row div:nth-child(even){
+    background-color: #33160B;
+}
+.features .section-content .row div:nth-child(odd){
+    background-color: #775b4f;
+
+}
+.features .section-content p,
+.features .section-content h3,
+.features .section-content i{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
