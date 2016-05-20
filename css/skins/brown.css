@@ -70,14 +70,44 @@ section h3 {
 .features .section-content i{
     color: #fff;
 }
-
-
-
-
-
-
-
-
+.portfolio li.active {
+    border-bottom: 1px solid #fff;
+}
+.portfolio-content p {
+    color: #fff;
+}
+.portfolio-content a {
+    border: 1px solid #fff;
+}
+.portfolio-content a:hover {
+    border: 1px solid #33160B;
+    color: #33160B;
+    background-color: #fff;
+}
+.details {
+    background-color: #fff;
+}
+form sup {
+    color: #f91804;
+}
+label {
+    color: #52372c;
+}
+input, textarea {
+    border: 1px solid #52372c;
+}
+.button {
+    color: #52372c;
+    background-color: transparent;
+}
+.button:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #52372c;
+}
+.social_wrap li a:hover {
+    color: #a78476;
+}
 
 
 
