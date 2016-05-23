@@ -1,12 +1,16 @@
 /**
- * Created by Cathrin on 09.04.2016.
- */
+ * Created by Cathrin
+ * */
 $(document).ready(function(){
     $('main_head').css('min-height', $(window).height());
 });
 
 //Portfolio
-$('#portfolio-mixes').mixItUp();
+$('#portfolio-mixes').mixItUp({
+    layout: {
+        display: 'block'
+    }
+});
 
 
 $(".portfolio li").click(function(){

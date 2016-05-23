@@ -418,9 +418,11 @@ section h2.personal_header  {
     display: none;
     padding: 0;
     margin: 0 auto;
+
 }
 .portfolio_item img {
     max-width: 100%;
+    margin: 0 auto;
 }
 .portfolio-content {
     position: absolute;
@@ -492,26 +494,17 @@ section h2.personal_header  {
     padding: 5px;
 }
 /*Contacts*/
-#map {
-    padding: 0;
-    margin: 0 auto;
-
-}
-/*Form*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     form {
-        margin: 40px 15px;
-    }
-    form div {
-        float: none;
+        margin: 40px 35px;
     }
     footer .social_wrap {
         float: none;
     }
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px){
     form {
-        margin-left:40px;
+        margin-left: 40px;
     }
     form div {
         padding-left: 20px;
@@ -526,9 +519,6 @@ section h2.personal_header  {
         float: right;
     }
 }
-
-
-
 label {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -555,6 +545,8 @@ textarea {
 .buttons {
     text-align: center;
 }
+
+/*Footer*/
 .copyrights p{
     margin-top: 35px;
     color: #fff;
